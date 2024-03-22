@@ -1,0 +1,55 @@
+@{
+    ViewData["Title"] = "Service Details";
+}
+
+<main id="main">
+    <!-- ======= Breadcrumbs ======= -->
+    <div class="breadcrumbs">
+        <nav>
+            <div class container>
+                <ol>
+                    <li><a asp-area="" asp-controller="Home" asp-action="Index">Home</a></li>
+                    <li>Service Details</li>
+                </ol>
+            </div>
+        </nav>
+    </div><!-- End Breadcrumbs -->
+
+    <!-- ======= Service Details Section ======= -->
+    <section id="service-details" class="service-details">
+        <div class="container" data-aos="fade-up">
+            <div class="row gy-4">
+                <div class="col-lg-4">
+                    <div class="services-list">
+                        <a asp-controller="Home" asp-action="StorageServiceDetails" class="active">Storage</a>
+                        <a asp-controller="Home" asp-action="LogisticsServiceDetails">Logistics</a>
+                        <a asp-controller="Home" asp-action="CargoServiceDetails">Cargo</a>
+                        <a asp-controller="Home" asp-action="TruckingServiceDetails">Trucking</a>
+                        <a asp-controller="Home" asp-action="PackagingServiceDetails">Packaging</a>
+                        <a asp-controller="Home" asp-action="WarehousingServiceDetails">Warehousing</a>
+                    </div>
+
+                    <h4>Discover the Magic of Our Storage Service</h4>
+                    <p>At RMD Transportation Company, we make storage a breeze. Find peace of mind in our secure facilities designed just for you.</p>
+                    <a href="#" class="btn btn-primary">Get Started</a>
+                </div>
+
+                <div class="col-lg-8">
+                    <img src="~/img/storage-service.jpg" alt="Storage Service" class="img-fluid services-img">
+                    <h3>Why Choose Our Storage Service?</h3>
+                    <p>
+                        Our storage service is more than just a place to keep your belongings. It's a sanctuary of safety and convenience. Here's why you should choose us:
+                    </p>
+                    <ul>
+                        <li><i class="bi bi-check-circle"></i> <span>State-of-the-Art Security: Your items are safe with us 24/7.</span></li>
+                        <li><i class="bi bi-check-circle"></i> <span>Accessibility: Easy access to your stored items whenever you need them.</span></li>
+                        <li><i class="bi bi-check-circle"></i> <span>Peace of Mind: Store your valuables without worries.</span></li>
+                    </ul>
+                    <p>
+                        Don't wait. Experience the magic of our storage service today. We're here to make your storage exceptional.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section><!-- End Service Details Section -->
+</main><!-- End #main -->

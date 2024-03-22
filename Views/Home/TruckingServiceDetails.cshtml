@@ -1,0 +1,55 @@
+@{
+    ViewData["Title"] = "Trucking Service Details";
+}
+
+<main id="main">
+    <!-- ======= Breadcrumbs ======= -->
+    <div class="breadcrumbs">
+        <nav>
+            <div class="container">
+                <ol>
+                    <li><a asp-area="" asp-controller="Home" asp-action="Index">Home</a></li>
+                    <li>Trucking Service Details</li>
+                </ol>
+            </div>
+        </nav>
+    </div><!-- End Breadcrumbs -->
+
+    <!-- ======= Service Details Section ======= -->
+    <section id="service-details" class="service-details">
+        <div class="container" data-aos="fade-up">
+            <div class="row gy-4">
+                <div class="col-lg-4">
+                    <div class="services-list">
+                        <a asp-controller="Home" asp-action="StorageServiceDetails">Storage</a>
+                        <a asp-controller="Home" asp-action="LogisticsServiceDetails">Logistics</a>
+                        <a asp-controller="Home" asp-action="CargoServiceDetails">Cargo</a>
+                        <a asp-controller="Home" asp-action="TruckingServiceDetails" class="active">Trucking</a>
+                        <a asp-controller="Home" asp-action="PackagingServiceDetails">Packaging</a>
+                        <a asp-controller="Home" asp-action="WarehousingServiceDetails">Warehousing</a>
+                    </div>
+
+                    <h4>Your Trusted Partner for Trucking Services</h4>
+                    <p>RMD Transportation Company offers professional trucking services for safe, efficient, and on-time cargo delivery.</p>
+                    <a href="#" class="btn btn-primary">Request a Quote</a>
+                </div>
+
+                <div class="col-lg-8">
+                    <img src="~/img/trucking-service.jpg" alt="Trucking Service" class="img-fluid services-img">
+                    <h3>Why Choose Our Trucking Service?</h3>
+                    <p>
+                        RMD Transportation Company's trucking service is designed to meet your cargo transportation needs. Here's why you should choose us:
+                    </p>
+                    <ul>
+                        <li><i class="bi bi-check-circle"></i> <span>Safety First: We handle your goods with the utmost care.</span></li>
+                        <li><i class="bi bi-check-circle"></i> <span>Efficiency Guaranteed: On-time delivery is our commitment.</span></li>
+                        <li><i class="bi bi-check-circle"></i> <span>Your Reliable Partner: Trust us with your cargo needs.</span></li>
+                    </ul>
+                    <p>
+                        Let RMD Transportation Company be your trusted partner for trucking services. Experience safe and efficient cargo transportation with us.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section><!-- End Service Details Section -->
+</main><!-- End #main -->

@@ -1,0 +1,55 @@
+@{
+    ViewData["Title"] = "Logistics Service Details";
+}
+
+<main id="main">
+    <!-- ======= Breadcrumbs ======= -->
+    <div class="breadcrumbs">
+        <nav>
+            <div class="container">
+                <ol>
+                    <li><a asp-area="" asp-controller="Home" asp-action="Index">Home</a></li>
+                    <li>Logistics Service Details</li>
+                </ol>
+            </div>
+        </nav>
+    </div><!-- End Breadcrumbs -->
+
+    <!-- ======= Service Details Section ======= -->
+    <section id="service-details" class="service-details">
+        <div class="container" data-aos="fade-up">
+            <div class="row gy-4">
+                <div class="col-lg-4">
+                    <div class="services-list">
+                        <a asp-controller="Home" asp-action="StorageServiceDetails">Storage</a>
+                        <a asp-controller="Home" asp-action="LogisticsServiceDetails" class="active">Logistics</a>
+                        <a asp-controller="Home" asp-action="CargoServiceDetails">Cargo</a>
+                        <a asp-controller="Home" asp-action="TruckingServiceDetails">Trucking</a>
+                        <a asp-controller="Home" asp-action="PackagingServiceDetails">Packaging</a>
+                        <a asp-controller="Home" asp-action="WarehousingServiceDetails">Warehousing</a>
+                    </div>
+
+                    <h4>Unlock the Potential of Our Logistics Service</h4>
+                    <p>RMD Transportation Company offers logistics solutions that transform your business. Let's streamline your success together.</p>
+                    <a href="#" class="btn btn-primary">Get Started</a>
+                </div>
+
+                <div class="col-lg-8">
+                    <img src="~/img/logistics-service.jpg" alt="Logistics Service" class="img-fluid services-img">
+                    <h3>Why Choose Our Logistics Service?</h3>
+                    <p>
+                        Our logistics service is the key to efficient business growth. Discover the reasons why you should choose RMD Transportation Company for logistics:
+                    </p>
+                    <ul>
+                        <li><i class="bi bi-check-circle"></i> <span>Efficiency: Streamlined logistics tailored to your needs.</span></li>
+                        <li><i class="bi bi-check-circle"></i> <span>Complexity Simplified: We handle the logistics, so you can focus on your business.</span></li>
+                        <li><i class="bi bi-check-circle"></i> <span>Growth Focus: Let us take your business to the next level.</span></li>
+                    </ul>
+                    <p>
+                        Ready to unlock the potential of your business? Choose RMD Transportation Company for logistics that make a difference.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section><!-- End Service Details Section -->
+</main><!-- End #main -->

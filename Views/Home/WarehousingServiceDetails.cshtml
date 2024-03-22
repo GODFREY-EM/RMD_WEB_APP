@@ -1,0 +1,55 @@
+@{
+    ViewData["Title"] = "Warehousing Service Details";
+}
+
+<main id="main">
+    <!-- ======= Breadcrumbs ======= -->
+    <div class="breadcrumbs">
+        <nav>
+            <div class="container">
+                <ol>
+                    <li><a asp-area="" asp-controller="Home" asp-action="Index">Home</a></li>
+                    <li>Warehousing Service Details</li>
+                </ol>
+            </div>
+        </nav>
+    </div><!-- End Breadcrumbs -->
+
+    <!-- ======= Service Details Section ======= -->
+    <section id="service-details" class="service-details">
+        <div class="container" data-aos="fade-up">
+            <div class="row gy-4">
+                <div class="col-lg-4">
+                    <div class="services-list">
+                        <a asp-controller="Home" asp-action="StorageServiceDetails">Storage</a>
+                        <a asp-controller="Home" asp-action="LogisticsServiceDetails">Logistics</a>
+                        <a asp-controller="Home" asp-action="CargoServiceDetails">Cargo</a>
+                        <a asp-controller="Home" asp-action="TruckingServiceDetails">Trucking</a>
+                        <a asp-controller="Home" asp-action="PackagingServiceDetails">Packaging</a>
+                        <a asp-controller="Home" asp-action="WarehousingServiceDetails" class="active">Warehousing</a>
+                    </div>
+
+                    <h4>State-of-the-Art Warehousing Solutions</h4>
+                    <p>RMD Transportation Company offers state-of-the-art warehousing solutions designed for efficient inventory storage and maximum protection of your goods.</p>
+                    <a href="#" class="btn btn-primary">Request Warehousing</a>
+                </div>
+
+                <div class="col-lg-8">
+                    <img src="~/img/warehousing-service.jpg" alt="Warehousing Service" class="img-fluid services-img">
+                    <h3>Why Choose Our Warehousing Service?</h3>
+                    <p>
+                        RMD Transportation Company's warehousing service is dedicated to safeguarding your inventory and ensuring it is easily accessible. Here's why you should choose us:
+                    </p>
+                    <ul>
+                        <li><i class="bi bi-check-circle"></i> <span>Efficient Inventory Storage: Our state-of-the-art facilities ensure efficient storage of your inventory.</span></li>
+                        <li><i class="bi bi-check-circle"></i> <span>Maximum Protection: We take utmost care to protect your goods while they are in our warehouses.</span></li>
+                        <li><i class="bi bi-check-circle"></i> <span>Ease of Accessibility: Your goods are easily accessible when you need them.</span></li>
+                    </ul>
+                    <p>
+                        RMD Transportation Company is your reliable partner for efficient and secure warehousing solutions, ensuring your inventory is protected and accessible at all times.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section><!-- End Service Details Section -->
+</main><!-- End #main -->

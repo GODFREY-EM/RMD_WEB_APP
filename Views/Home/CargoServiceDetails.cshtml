@@ -1,0 +1,63 @@
+@{
+    ViewData["Title"] = "Cargo Service Details";
+}
+
+<main id="main">
+
+    <!-- ======= Breadcrumbs ======= -->
+    <div class="breadcrumbs">
+        <nav>
+            <div class="container">
+                <ol>
+                    <li><a asp-area="" asp-controller="Home" asp-action="Index">Home</a></li>
+                    <li>Cargo Service Details</li>
+                </ol>
+            </div>
+        </nav>
+    </div><!-- End Breadcrumbs -->
+
+    <!-- ======= Service Details Section ======= -->
+    <section id="service-details" class="service-details">
+        <div class="container" data-aos="fade-up">
+
+            <div class="row gy-4">
+
+                <div class="col-lg-4">
+                    <div class="services-list">
+                        <a asp-controller="Home" asp-action="StorageServiceDetails">Storage</a>
+                        <a asp-controller="Home" asp-action="LogisticsServiceDetails">Logistics</a>
+                        <a asp-controller="Home" asp-action="CargoServiceDetails" class="active">Cargo</a>
+                        <a asp-controller="Home" asp-action="TruckingServiceDetails">Trucking</a>
+                        <a asp-controller="Home" asp-action="PackagingServiceDetails">Packaging</a>
+                        <a asp-controller="Home" asp-action="WarehousingServiceDetails">Warehousing</a>
+                    </div>
+
+                    <h4>Your Reliable Cargo Service Provider</h4>
+                    <p>Choose RMD Transportation Company for reliable cargo services. We handle your cargo with care and ensure on-time delivery.</p>
+
+                    <a href="#" class="btn btn-primary">Get a Quote</a>
+                </div>
+
+                <div class="col-lg-8">
+                    <img src="~/img/cargo-service.jpg" alt="Cargo Service" class="img-fluid services-img">
+                    <h3>Why Choose Our Cargo Service?</h3>
+                    <p>
+                        RMD Transportation Company's cargo service is designed to meet your shipping needs. Here's why you should choose us:
+                    </p>
+                    <ul>
+                        <li><i class="bi bi-check-circle"></i> <span>Careful Handling: We handle your cargo with utmost care.</span></li>
+                        <li><i class="bi bi-check-circle"></i> <span>Timely Delivery: We ensure your cargo reaches its destination on time.</span></li>
+                        <li><i class="bi bi-check-circle"></i> <span>Reliability Guaranteed: Count on us for safe and reliable cargo transportation.</span></li>
+                    </ul>
+                    <p>
+                        Trust RMD Transportation Company for all your cargo shipping needs. We guarantee safe, reliable
+                        , and on-time delivery.
+                    </p>
+                </div>
+
+            </div>
+
+        </div>
+    </section><!-- End Service Details Section -->
+
+</main><!-- End #main -->
